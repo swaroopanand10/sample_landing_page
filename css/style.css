@@ -1,0 +1,161 @@
+body{
+ margin:0px; 
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:#1f2937;
+  padding:32px 400px 32px 480px;
+  /* width:900px; */
+}
+
+.header-link{
+  display:flex;
+  gap:16px;
+  color:#e5e7eb;
+  font-size:18px;
+  display:flex;
+  align-items:center;
+}
+
+.logo{
+  color: #f9faf8;
+  font-size:24px;
+}
+
+.cont1{
+  display:flex;
+  justify-content:center;
+  background-color:#1f2937;
+  padding:32px 0px 132px 0px;
+
+}
+
+.right img{
+  width: 400px;
+  height:300px;
+}
+
+.cont1 h1{
+  font-size:48px;
+  color:#f9faf8;
+  font-weight:900;
+}
+
+.cont1 p{
+  color:#e5e7eb;
+  font-size:25px;
+}
+
+.cont1 .left{
+  width:500px
+}
+
+button{
+  background-color:#3882f6;
+  padding:8px 16px 8px 16px;
+  color:white;
+  border-radius:8px;
+  width:100px;
+  /* border-color:white; */
+  border-width:0px;
+}
+
+.cont2{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.info{
+  font-size:36px;
+  font-weight:900px;
+  color:#1f2937;
+}
+
+.items{
+  display:flex;
+  justify-content:center;
+  gap:72px;
+}
+
+.item{
+  width:150px;
+  text-align:center;
+  font-size:18px;
+}
+
+.item img{
+  width:150px;
+  height:auto;
+  border-color:#3882f6;
+  border-style:solid;
+  /* border-width:3px 3px 3px 10px; */
+  border-width:3px;
+  border-radius:10px;
+  /* border: 3px solid #3882f6; */
+}
+
+.cont3{
+  background-color:#e5e7eb;
+  /* padding:32px 272px 32px 272px; */
+  padding:32px 480px 32px 480px;
+}
+
+.quote {
+ font-size:36px;
+  color:#1f2937;
+  font-style:italic;
+}
+
+.name{
+  font-size: 28px;
+  color: black;
+  font-weight:700;
+  text-align:end;
+  padding-right:100px;
+}
+
+.cont4{
+  color:white;
+  background-color:#3882f6;
+  display:flex;
+  justify-content:center;
+  gap:100px;
+  align-items:center;
+  /* height:180px;  */
+  margin:72px 480px 72px 480px;
+  padding:32px 0px 32px 0px;
+  border-radius:25px;
+}
+
+.cont4 button{
+  border-width:thin;
+  border-color:white;
+  border-style:solid;
+}
+
+.action{
+  font-size:32px;
+  font-weight:700;
+}
+
+.sign{
+  font-size:24px;
+  
+}
+
+.footer{
+  height:100px;
+  display:flex;
+  background-color:#1f2937;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-size:24px;
+}
+
+
